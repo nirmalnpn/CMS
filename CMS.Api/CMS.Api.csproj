@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.DAL\CMS.DAL.csproj" />
+    <ProjectReference Include="..\CMS.Domain\CMS.Domain.csproj" />
+    <ProjectReference Include="..\CMS.Modules\CMS.Modules.csproj" />
+    <ProjectReference Include="..\CMS.Shared\CMS.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
